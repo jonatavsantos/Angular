@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './card-roxo.component.scss'
 })
 export class CardRoxoComponent {
-
+  plano = {
+    tipo: 'Super',
+    preco: 'R$' + 250 + ',00/Mês'
+  }
 }
